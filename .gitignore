@@ -1,0 +1,93 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Testing & Coverage
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Media & Video files (Large files)
+Videos/
+videos/
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.flv
+*.wmv
+*.m4v
+
+# Pipeline Generated Output & Checkpoints
+output/
+images/
+.video2book_state.json
+
+# API Keys, Tokens & Environment Files (CRITICAL - DO NOT COMMIT)
+.env
+*.env
+.env.*
+Next edit.txt
+*.key
+*.pem
+*.token
+
+# Local scratch & notes
+commands.txt
+
+# Standalone Embedded Projects / Sub-repositories
+web-platform/
+
+# User-specific config
+.video2book/
+
+# Operating System & Editor Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+*.log

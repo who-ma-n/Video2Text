@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "video2book"
+version = "0.1.0"
+description = "Production-grade CLI pipeline converting massive video lecture libraries into comprehensive technical textbook chapters in Markdown with extracted diagram snapshots."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "google-genai>=2.29.0",
+    "click>=8.1.0",
+    "rich>=13.0.0",
+    "tenacity>=8.2.0",
+    "customtkinter>=6.0.0",
+    "pillow>=10.0.0",
+]
+
+[project.scripts]
+video2book = "video2book.cli:main"
+video2book-gui = "video2book.gui:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["video2book*"]
